@@ -224,10 +224,6 @@
         "provider": "[NODERS]TEAM"
       },
       {
-        "address": "https://rpc-injective.ecostake.com",
-        "provider": "ecostake"
-      },
-      {
         "address": "https://rpc-injective.kewrnode.com",
         "provider": "Kewr Node"
       }
@@ -284,10 +280,6 @@
       {
         "address": "https://injective-api.noders.services",
         "provider": "[NODERS]TEAM"
-      },
-      {
-        "address": "https://rest-injective.ecostake.com",
-        "provider": "ecostake"
       },
       {
         "address": "https://rest-injective.kewrnode.com",
@@ -351,6 +343,28 @@
         "address": "injective-grpc.noders.services:33090",
         "provider": "[NODERS]TEAM"
       }
+    ],
+    "evm-http-jsonrpc": [
+      {
+        "address": "https://injective.json-rpc.decentrio.ventures",
+        "provider": "Decentrio"
+      },
+      {
+        "address": "https://injective-evm-rpc.scvsecurity.io",
+        "provider": "SCV Security"
+      },
+      {
+        "address": "https://injective-evm-rpc.highstakes.ch",
+        "provider": "High Stakes 🇨🇭"
+      },
+      {
+        "address": "https://sentry.evm-rpc.injective.network",
+        "provider": "injectivelabs.org"
+      },
+      {
+        "address": "https://injectiveevm-rpc.polkachu.com",
+        "provider": "Polkachu"
+      }
     ]
   },
   "explorers": [
@@ -410,6 +424,12 @@
       "url": "https://injective.valopers.com/",
       "tx_page": "https://injective.valopers.com/transactions/${txHash}",
       "account_page": "https://injective.valopers.com/account/${accountAddress}"
+    },
+    {
+      "kind": "moon-runners",
+      "url": "https://moon-runners.net/injective/mainnet",
+      "tx_page": "https://moon-runners.net/injective/mainnet/finder?search=${txHash}",
+      "account_page": "https://moon-runners.net/injective/mainnet/finder?search=${accountAddress}"
     }
   ],
   "images": [

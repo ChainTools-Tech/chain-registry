@@ -58,7 +58,7 @@ A sample `chain.json` includes the following information.
   "status": "live",
   "website": "https://osmosis.zone/",
   "network_type": "mainnet",
-  "chain_type": "cosmos"
+  "chain_type": "cosmos",
   "pretty_name": "Osmosis",
   "chain_id": "osmosis-1",
   "bech32_prefix": "osmo",
@@ -234,7 +234,7 @@ An example assetlist json contains the following structure:
       ],
       "socials": {
         "website": "https://osmosis.zone",
-        "twitter": "https://twitter.com/osmosiszone"
+        "x": "https://x.com/osmosis"
       }
     },
     ..
